@@ -142,7 +142,6 @@ if __name__ == '__main__':
     # Ініціалізація значень X для кожного образу
     X = np.zeros((size, 3))
     X[0] = [8, 5, 3]
-    #X[0] = [1, 2, 3]
     variable = 1
     for i in range(1, size):
         if i % 7 == 1:
